@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --body-font: Manrope;
+  --line-height: 1.5;
+  --font-weight-initial: 400;
+  --font-weight-inter: 500;
+  --font-weight-mid: 700;
+  --font-weight-intermediate: 600;
+  --background-body: #171717;
+  --initial-color: white;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-body);
+  color: var(--initial-color);
+  font-family: var(--body-font);
+  font-weight: var(--font-weight-initial);
+  padding-bottom: 2rem;
+}
